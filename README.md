@@ -4,13 +4,12 @@ A 2D top-down rescue game built in **Java Swing**. You drive a rescue van around
 farmland map, pick up injured animals, correctly diagnose them, and deliver them to
 the vet —all before a 3-minute timer runs out.
 
-<img width="640" height="480" alt="Screen Recording 2026-09-01 at 8 42 11 PM" src="https://github.com/user-attachments/assets/7e24cabf-9cee-4fb9-a1e3-e36d747570e7" />
-
+<img width="1280" height="720" alt="Screen Recording 2026-09-01 at 8 42 11 PM" src="https://github.com/user-attachments/assets/9802eb00-0ca0-4941-af52-c13b389c208e" />
 
 ## The game
 
 There are five unwell pets on the farm, all waiting to be rescued. The player goes
-around and picks them up, and for each one completes a task — filling out the pet's
+around and picks them up, and for each one completes a task —filling out the pet's
 name, its species, a pre-screen diagnosis, and specifying which vet it should be sent
 to for cure. After that, the player takes them to the hospital. There is a time limit
 of 3 minutes. Doing the tasks correctly and sending the pets to the vet successfully
