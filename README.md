@@ -9,7 +9,7 @@ the vet —all before a 3-minute timer runs out.
 ## The game
 
 There are five unwell pets on the farm, all waiting to be rescued. The player goes
-around and picks them up, and for each one completes a task —filling out the pet's
+around and picks them up, and for each one completes a task, filling out the pet's
 name, its species, a pre-screen diagnosis, and specifying which vet it should be sent
 to for cure. After that, the player takes them to the hospital. There is a time limit
 of 3 minutes. Doing the tasks correctly and sending the pets to the vet successfully
@@ -36,7 +36,7 @@ counted as correct if all four fields match:
 | **W A S D** | Drive the van up / left / down / right |
 | **Mouse click** | Pick up an animal (when the van is next to it) |
 
-The van can only travel on **grass tiles** — water and scenery block it.
+The van (rescue cat character) can only travel on **grass tiles**, water and scenery block it.
 
 ## What this demonstrates
 
@@ -62,16 +62,16 @@ GUI-project/
 └── .vscode/launch.json    # run configuration (sets the working directory)
 ```
 
-- **`MainApplication.java`** — the entry point (`main`). Builds the start screen
+- **`MainApplication.java`** the entry point (`main`). Builds the start screen
   (`StartFrame`) with the title, a **Start** button, a **Team Members** button
   (opens `TeamFrame`), and **Exit**. Clicking Start launches the game.
-- **`RescuePanel.java`** — the heart of the project. Its `GamePanel` draws the map
+- **`RescuePanel.java`** the heart of the project. Its `GamePanel` draws the map
   and characters, runs the game loop, handles keyboard/mouse input, checks
   van-vs-grass collisions, manages the countdown, and computes the final score.
-- **`TaskFrame.java`** — the "Rescue Task" window. Collects the player's answers
+- **`TaskFrame.java`** the "Rescue Task" window. Collects the player's answers
   (name, species, diagnosis, vet) and checks them against the correct values for
   that animal.
-- **`ui-assets/`** — all PNG sprites: map tiles (grass, water), the van, the five
+- **`ui-assets/`** all PNG sprites: map tiles (grass, water), the van, the five
   animals, buildings and fences, flowers and trees, and UI images (menu, dialogue
   bubble, start button).
 
