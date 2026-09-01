@@ -2,7 +2,7 @@
 
 A 2D top-down rescue game built in **Java Swing**. You drive a rescue van around a
 farmland map, pick up injured animals, correctly diagnose them, and deliver them to
-the vet —all before a 3-minute timer runs out.
+the vet, all before a 3-minute timer runs out.
 
 <img width="960" height="720" alt="Screen Recording 2026-09-01 at 8 42 11 PM" src="https://github.com/user-attachments/assets/6e99e976-8528-4551-91de-53a6569b0b11" />
 
