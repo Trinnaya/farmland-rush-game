@@ -4,7 +4,8 @@ A 2D top-down rescue game built in **Java Swing**. You drive a rescue van around
 farmland map, pick up injured animals, correctly diagnose them, and deliver them to
 the vet —all before a 3-minute timer runs out.
 
-![Uploading Screen Recording 2026-09-01 at 8.42.11 PM.gif…]()
+<img width="640" height="480" alt="Screen Recording 2026-09-01 at 8 42 11 PM" src="https://github.com/user-attachments/assets/7e24cabf-9cee-4fb9-a1e3-e36d747570e7" />
+
 
 ## The game
 
@@ -78,38 +79,10 @@ GUI-project/
   animals, buildings and fences, flowers and trees, and UI images (menu, dialogue
   bubble, start button).
 
-## Running it
-
-**Requirements:** JDK 17 or newer (developed on JDK 21). No external libraries — it
-uses only the built-in Java Swing/AWT toolkit.
-
-### In VS Code (recommended)
-
-1. **Open this folder directly**: `File → Open Folder…` → select `GUI-project`.
-   (The Explorer title should read **GUI-PROJECT**.)
-2. Press **F5** and choose **“Run Farmland Rush”**, or click the ▶ Run button above
-   `main` in `MainApplication.java`.
-
-> **Important:** the images are loaded with paths relative to `ui-assets/`, so the
-> program must be launched with `GUI-project` as its working directory. The included
-> `.vscode/launch.json` sets this automatically — just make sure you opened
-> `GUI-project` itself (not a parent folder), or the sprites will render blank.
-
-### From the terminal
-
-```sh
-# from inside the GUI-project folder
-javac -d out *.java
-java -cp out Project3_6581147.MainApplication
-```
-
-Run it from the `GUI-project` directory so the `ui-assets/` paths resolve.
-
 ## Team
 
-6581147 Trinnaya Damrongpatharawat
-6581053 Jinjutha Yolsirivat
-6581178 Kyaw Zin Thant
-6481227 Chartwut Piriyapanyaporn
-6680251
- Phurilap Kitlertpaisan
+6581147 Trinnaya Damrongpatharawat\
+6581053 Jinjutha Yolsirivat\
+6581178 Kyaw Zin Thant\
+6481227 Chartwut Piriyapanyaporn\
+6680251 Phurilap Kitlertpaisan
