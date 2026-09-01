@@ -40,19 +40,16 @@ The van can only travel on **grass tiles** — water and scenery block it.
 
 ## What this demonstrates
 
-- **Object-oriented design** — responsibilities are split across focused classes:
-  a start screen (`StartFrame`, `TeamFrame`), the game world and its state
-  (`GamePanel`), and a separate data-entry window (`TaskFrame`). Game progress is
-  tracked with encapsulated per-animal state (rescued / following / correctly
-  treated), and the task window reports results back to the game through a small
-  shared interface.
-- **Event-driven programming** — the game runs on Swing `Timer`s (a 50 ms loop for
-  van movement and a 1-second countdown), with `KeyListener` and `MouseListener`
-  handling input and `ActionListener` driving the form's Submit button and dialogs.
-- **GUI construction** — a custom `paintComponent` renders a sprite-based tile map
-  (a 25×19 grid), plus scenery, characters, speech bubbles, and a HUD timer. The UI
-  spans multiple windows and uses form controls (`JTextField`, `JRadioButton`,
-  `JComboBox`, `JList`) for the rescue task.
+- **Object-oriented design:** the code is split into focused classes:
+  the start screen, the game world and its state (GamePanel), and a separate task
+  window (TaskFrame). Each animal's state (rescued, following, treated) is tracked
+  on its own, and the task window sends its result back to the game.
+- **Event-driven programming:** the game runs on Swing timers (a fast loop for
+  movement and a 1-second countdown), with key and mouse listeners for input and
+  an action listener for the form's Submit button.
+- **GUI construction:** a custom paintComponent draws a sprite tile map plus scenery,
+  characters, speech bubbles, and a timer. The UI spans several windows and uses
+  form controls (JTextField, JRadioButton, JComboBox, JList).
 
 ## Project structure
 
