@@ -4,8 +4,7 @@ A 2D top-down rescue game built in **Java Swing**. You drive a rescue van around
 farmland map, pick up injured animals, correctly diagnose them, and deliver them to
 the vet —all before a 3-minute timer runs out.
 
-<!-- Optional: drop a screenshot or GIF here once you have one -->
-<!-- ![gameplay](ui-assets/menu.png) -->
+![Uploading Screen Recording 2026-09-01 at 8.42.11 PM.gif…]()
 
 ## The game
 
@@ -108,8 +107,9 @@ Run it from the `GUI-project` directory so the `ui-assets/` paths resolve.
 
 ## Team
 
-- 6581147 — Trinnaya Damrongpatharawat
-- 6581053 — Jinjutha Yolsirivat
-- 6581178 — Kyaw Zin Thant
-- 6481227 — Chartwut Piriyapanyaporn
-- 66802511 — Phurilap Kitlertpaisan
+6581147 Trinnaya Damrongpatharawat
+6581053 Jinjutha Yolsirivat
+6581178 Kyaw Zin Thant
+6481227 Chartwut Piriyapanyaporn
+6680251
+ Phurilap Kitlertpaisan
