@@ -6,6 +6,8 @@ the vet, all before a 3-minute timer runs out.
 
 <img width="960" height="720" alt="Screen Recording 2026-09-01 at 8 42 11 PM" src="https://github.com/user-attachments/assets/6e99e976-8528-4551-91de-53a6569b0b11" />
 
+Art assets: Sprout Lands by Cup Nooble (https://cupnooble.itch.io/sprout-lands-asset-pack, https://cupnooble.itch.io/sprout-lands-ui-pack)
+
 ## The game
 
 There are five unwell pets on the farm, all waiting to be rescued. The player goes
