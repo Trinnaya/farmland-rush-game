@@ -77,6 +77,15 @@ GUI-project/
   animals, buildings and fences, flowers and trees, and UI images (menu, dialogue
   bubble, start button).
 
+## My contribution
+
+Group project for Programming Paradigms. I built the game
+interface, composing the farmland scene from ~45 sprite assets, placing
+and layering each one, along with the object-oriented, event-driven
+logic and the rescue logic.
+
+Forked from the team repository to keep it on my own profile.
+
 ## Team
 
 6581147 Trinnaya Damrongpatharawat\
